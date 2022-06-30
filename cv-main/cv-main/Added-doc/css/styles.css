@@ -1,0 +1,211 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+
+.container-fluid {
+  padding: 20px 25px;
+}
+
+
+/* Navbar section */
+
+#navbar {
+  background-color: #ff4c68;
+}
+.navbar-brand {
+  font: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#navbar a {
+  text-align: left;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+
+/* Title section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+   /* #fff -white #000 -black */
+}
+#title .big-heading {
+ text-align: left;
+ padding: 5% 15%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.dog-image {
+  width: 60%;
+  transform: rotate(30deg);
+  position: relative;
+}
+
+#features {
+  padding: 3% 15%;
+}
+.heads {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+
+/* Features */
+
+#features {
+background-color: #fff;
+position: relative;
+padding: 7% 15%;
+bottom: 100px;
+z-index: 1;
+}
+
+.features-row {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8175;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  transform: translateY(-25px);
+  transition: 1ms;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8175;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100% ;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8175;
+  padding-bottom: 50px;
+}
+
+
+/* Press section */
+
+.press-img {
+  width: 15%;
+  /* padding: 0 5%; */
+}
+
+.carousel-item {
+  margin-bottom: 50px;
+  padding: 7% 13%;
+}
+
+.carousel-indicators {
+  margin-top: 50px;
+}
+
+/* Card Section */
+
+.card {
+padding: 3% 2%;
+}
+
+#pricing {
+
+padding: 100px;
+}
+
+.card-btn {
+width: 100%;
+}
+
+
+/* Call to action */
+
+#cta {
+background-color: #ff4c68;
+color: #fff;
+}
+
+.cta-heading {
+font-size: 1.5rem;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Footer */
+
+#footer {
+background-color: #fff;
+color: #8f8f8f;
+}
+
+.social-media {
+padding: 7% 3%;
+}
+
+
+
+
+/* Media query */
+
+@media (max-width: 1014px) {
+#title{
+  text-align: center;
+}
+
+.dog-image{
+  position: static;
+  transform: rotate(0);
+}
+
+.headmain {
+  font-size: 25px;
+}
+
+}
+
+
+/* Prevention from Print  */
+
+
+@media print {
+body {
+  visibility: hidden;
+  display: none;
+}
+}
